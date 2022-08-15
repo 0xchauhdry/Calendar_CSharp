@@ -16,8 +16,8 @@ namespace CalendarOOP
         public Calendar()
         {
             InitializeComponent();
-            DisplayDays();
             Holiday.addPredefinedHolidays();
+            DisplayDays();
         }
 
         private void btnPrevious_Click(object sender, EventArgs e)
